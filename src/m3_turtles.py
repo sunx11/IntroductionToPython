@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Xiaoze Sun.
 """
 ########################################################################
 #
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -77,7 +77,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -88,7 +88,8 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+dave.right(120)
+dave.forward(100)
 ########################################################################
 #
 # TODO: 4.
@@ -135,3 +136,5 @@ matt.forward(50)
 # Throughout this exercise, close_on_mouse_click should be the last line in the file.
 # ----------------------------------------------------------------------
 window.close_on_mouse_click()
+
+rg.SimpleTurtle().backward(100)
