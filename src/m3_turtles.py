@@ -14,7 +14,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -92,7 +92,7 @@ dave.right(120)
 dave.draw_circle(100)
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -114,7 +114,7 @@ turtle_bob=rg.SimpleTurtle('square')
 turtle_bob.draw_square(100)
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
