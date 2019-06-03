@@ -5,10 +5,47 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
          their colleagues and Xiaoze Sun.
 """
 ########################################################################
-# TODO: 1.
+# DONE: 1.
 # On Line 5 above, replace  Xiaoze Sun  with your own name.
 ########################################################################
-
+# Ninja turtle
+import rosegraphics as rg
+window = rg.TurtleWindow()
+window.delay(2)
+don= rg.SimpleTurtle('turtle')
+don.pen = rg.Pen('purple', 10)
+don.left(270)
+don.forward(200)
+leo=rg.SimpleTurtle('turtle')
+leo.pen=rg.Pen('blue',10)
+leo.left(90)
+leo.forward(100)
+leo.draw_circle(50)
+mikey=rg.SimpleTurtle('turtle')
+mikey.pen=rg.Pen('orange',5)
+size=150
+for k in range(6):
+    mikey.draw_circle(size)
+    mikey.pen_up()
+    mikey.right(45)
+    mikey.forward(10)
+    mikey.left(45)
+    mikey.pen_down()
+    size = size - 12
+raph=rg.SimpleTurtle('turtle')
+raph.pen=rg.Pen('red',5)
+size=250
+for k in range(6):
+    raph.left(180)
+    raph.draw_square(size)
+    raph.pen_up()
+    raph.right(45)
+    raph.forward(10)
+    raph.left(45)
+    raph.pen_down()
+    size = size - 12
+window.close_on_mouse_click()
+rg.SimpleTurtle().backward(100)
 ########################################################################
 # TODO: 2.
 #
@@ -28,3 +65,4 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
+
