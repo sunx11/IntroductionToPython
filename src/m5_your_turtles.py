@@ -47,7 +47,7 @@ for k in range(6):
 window.close_on_mouse_click()
 rg.SimpleTurtle().backward(100)
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #
 #  You should have RUN the PREVIOUS module and READ its code.
 #  (Do so now if you have not already done so.)
